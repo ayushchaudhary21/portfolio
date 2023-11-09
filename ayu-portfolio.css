@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(14, 14, 50);;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: rgb(1, 1, 23);
+
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+ nav ul li{
+    list-style: none;
+    margin : 0 23px;
+ }
+ nav ul li a{
+    text-decoration: none;
+    color: white;
+  
+
+ }
+ nav ul li a:hover{
+    color: black;
+    font-size: 1.05rem;
+ }
+ nav ul div:hover{
+   background-color:#9c97f1;
+   border-radius: 2px;
+   
+ }
+ main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.3px;
+    margin: 30px 40px;
+ }
+
+ 
+ 
+
+ .left{
+   font-weight: 600;
+   font-size: 1.5rem;
+ }
+ .firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin:120px 0;
+ }
+.rightSection img{
+    width: 450px;
+    height:250px;
+}
+
+ 
+ 
+ .leftSection{
+    font-size: 35px;
+    font-style:Calibri;
+    font-weight: 500;
+ }
+
+
+ 
+ .leftSection .btn{
+   background-color: rgb(34, 34, 100);
+   color: white;
+   font-size: 20px;
+   border: 2px solid white;
+   border-radius: 10px;
+   border-color: white;
+   margin-top: 10px;
+   padding: 10px 5px;
+   cursor: pointer;
+}
+
+
+ .purple{
+    color:rgb(149, 73, 220)
+ }
+ #element{
+    color:#bf93e9;
+
+ }
+ img{
+    width: 400px;
+    height: 300px;
+ }
+ .secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height:80vh;
+ }
+ .secondSection h1{
+    font: size 1.9rem; 
+ }
+ .text-gray{
+    color: gray;
+ }
+ .secondSection .box{
+         background: white;
+         height: 2px;
+         margin: 56px 0;
+         display: flex;
+ }
+ .secondSection .vertical-line{
+   height: 70px;
+   width: 1px;;
+   background-color: white;
+   margin: 0 100px;
+ }
+ .img-top{
+   width:25px ;
+   height:25px;
+   position: relative;
+   top:-32px;
+   left: -9px;
+ }
+ .vertical-title{
+   position: relative;
+   top: 50px;
+   width: 150px;
+}
+.vertical-desc{
+   position: relative;
+   top: 52px;
+   color: gray;
+   width: 150px;
+}
+footer{
+   background-color: #1a192d;
+}
+.footer{
+   display: flex;
+   padding: 23px 123px;
+   justify-content: space-evenly;
+}
+.footer ul{
+   list-style: none;
+}
+.footer > div{
+ width:240px;
+}
+.footer-rights{
+   text-align: center;
+   color: gray;
+   padding: 12px 0;
+}
+ 
+
+ 
+
+ 
